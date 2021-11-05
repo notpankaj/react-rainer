@@ -1,0 +1,34 @@
+{
+  "name": "rainer",
+  "version": "v1.3.0",
+  "description": "Command Line script to generate  [components, files, and pages] for ' REACT ' including React-Native and Next.js",
+  "main": "index.js",
+  "bin": {
+    "@pankaj/rainer": "index.js",
+    "rainer": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon test.js"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "react file",
+    "react component",
+    "rainer",
+    "nextjs",
+    "next",
+    "node",
+    "script"
+  ],
+  "author": "pankaj",
+  "license": "Apache-2.0 License",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2"
+  }
+}
