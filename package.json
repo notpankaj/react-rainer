@@ -1,6 +1,6 @@
 {
   "name": "rainer",
-  "version": "v1.3.0",
+  "version": "v1.3.1",
   "description": "Command Line script to generate  [components, files, and pages] for ' REACT ' including React-Native and Next.js",
   "main": "index.js",
   "bin": {

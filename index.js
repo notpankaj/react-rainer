@@ -92,7 +92,7 @@ if (boot.EGG) {
   } else {
     if (existsSync(`./content/${boot.EGG}.txt`)) {
       const data = readFileSync(`./content/${boot.EGG}.txt`, "utf-8");
-      // console.log(data);
+      console.log(data);
     } else {
       print({ type: "FALSE EGG" });
     }
